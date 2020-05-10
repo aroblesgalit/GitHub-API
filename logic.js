@@ -7,7 +7,7 @@ $(document).ready(function () {
     })
         .then(function(result) {
 
-            for (let i = 0; i < result.length; i++) {
+            for (let i = result.length - 1; i >= 0; i--) {
                 const starredRepo = result[i];
 
                 $("#github-starred").append(
