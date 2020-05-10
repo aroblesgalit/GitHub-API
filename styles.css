@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 80px;
+    background-color: #f2f2f2;
+}
+
+nav {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
